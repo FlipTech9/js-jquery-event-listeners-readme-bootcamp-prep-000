@@ -14,7 +14,11 @@ function frameIt(){
 }
 
 function pressIt(){
-  
+  $(document).on('keydown', function(key){
+    if(key.which ==){
+      alert('G was pressed')
+    }
+  })
 }
 $(document).ready(function(){
 
